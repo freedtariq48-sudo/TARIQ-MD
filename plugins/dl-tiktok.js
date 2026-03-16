@@ -29,7 +29,7 @@ cmd({
         await conn.sendMessage(from, {
             video: { url: result.download },
             mimetype: 'video/mp4',
-            caption: `🎵 *${result.title || 'TikTok Video'}*\n👤 *Author:* ${result.author?.nickname || 'Unknown'}\n📱 *Username:* @${result.author?.unique_id || 'Unknown'}\n🌍 *Region:* ${result.region || 'N/A'}\n\n> ✨ *DARKZONE-MD*`
+            caption: `🎵 *${result.title || 'TikTok Video'}*\n👤 *Author:* ${result.author?.nickname || 'Unknown'}\n📱 *Username:* @${result.author?.unique_id || 'Unknown'}\n🌍 *Region:* ${result.region || 'N/A'}\n\n> ✨ *TARIQ-MD*`
         }, { quoted: mek });
 
         await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
