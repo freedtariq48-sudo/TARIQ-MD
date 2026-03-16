@@ -12,7 +12,7 @@ cmd({
 }, async (conn, mek, m, { from, q, reply }) => {
     try {
         if (!q) return await reply(`
-🌸 *DRAMA DOWNLOADER – DARK ZONE MD* 🌸
+🌸 *DRAMA DOWNLOADER – TARIQ-MD* 🌸
 
 🎬 Please provide a drama name or YouTube URL!
 
@@ -81,7 +81,7 @@ cmd({
 🎬 Your requested drama is ready!
 
 🖤 *Enjoy Watching With*  
-『🔥 DARK ZONE MD 🔥』
+『🔥 TARIQ-MD 🔥』
             `
         }, { quoted: mek });
 
