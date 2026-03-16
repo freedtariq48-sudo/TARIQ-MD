@@ -135,7 +135,7 @@ cmd({
 │ 🧑‍💻 *Developer:* ${app.developer.name}
 │ 📅 *Updated:* ${app.updated}
 ╰─────────────📱
-🔗 *Powered By DARKZONE-AI*`;
+🔗 *Powered By TARIQ-MD*`;
 
     await conn.sendMessage(from, {
       document: { url: app.file.path_alt },
@@ -182,7 +182,7 @@ cmd({
 │─────────────────────
 │ 📥 *Downloading...*
 ╰─────────────☁️
-💠 *Owner:* 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟 💎`;
+💠 *Owner:* TARIQ-MD* 💎`;
 
     await conn.sendMessage(from, {
       document: { url: result.downloadUrl },
