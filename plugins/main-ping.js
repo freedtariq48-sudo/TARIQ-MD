@@ -4,7 +4,7 @@ const { cmd, commands } = require('../command');
 // Array of different fancy text styles for DARKZONE-MD
 const botNameStyles = [
     
-    "𝙳𝙰𝚁𝙺𝚉𝙾𝙽𝙴-𝙼𝙳"
+    "TARIQ-MD"
 ];
 
 // Track current style index
