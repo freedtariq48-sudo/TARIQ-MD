@@ -17,7 +17,7 @@ cmd({
             return await reply(`╭━〔 🎵MUSIC ENGINE 〕━⬣
 ┃ ⚠️ .play pal pal 
 ╰━━━━━━━━━━━━━━━━━━⬣
-> 🚀 DARKZONE-MD`);
+> 🚀 TARIQ-MD `);
         }
 
         await conn.sendMessage(from, {
@@ -123,7 +123,7 @@ cmd({
 ┃ 👁️ *Views:* ${views.toLocaleString()}
 ┃ 📥 *Status:* Downloading...
 ╰━━━━━━━━━━━━━━━⬣
-> ⚡ *DARKZONE-MD*`
+> ⚡ *TARIQ-MD*`
         }, { quoted: mek });
 
         // ✅ Second: Send Audio File
@@ -153,6 +153,6 @@ cmd({
 ┃
 ┃ Please try again later.
 ╰━━━━━━━━━━━━━━━━━━⬣
-> 🛠️ DARKZONE-MD System`);
+> 🛠️ TARIQ-MD  System`);
     }
 });
