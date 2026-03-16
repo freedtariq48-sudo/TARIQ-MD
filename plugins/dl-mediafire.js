@@ -33,7 +33,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
             `*📏 Size:* ${res.size}\n` +
             `*📅 Date:* ${res.date}\n` +
             `*🗂 Type:* ${res.type}\n\n` +
-            `> DARKZONE-MD`
+            `> TARIQ-MD`
         );
 
         // Download the actual file buffer
