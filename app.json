@@ -1,8 +1,8 @@
  {
-  "name": "DARKZONE-MD",
+  "name": "TARIQ-MD",
   "description": "Javascript WhatsApp bot made by 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟",
   "logo": "https://files.catbox.moe/jecbfo.jpg",
-  "keywords": ["DARKZONE-MD"],
+  "keywords": ["TARIQ-MD"],
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -15,7 +15,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𝐸𝑅𝐹𝒜𝒩"
+      "value": "TARIQ-MD"
     }, 
       
     "PREFIX": {
@@ -87,25 +87,25 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY DARKZONE-MD ❤️*"
+      "value": "*SEEN YOUR STATUS BY TARIQ-MD ❤️*"
     }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ERFAN"
+      "value": "TARIQ-MD"
     }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923306137477"
+      "value": "923274699558"
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "DARKZONE-MD"
+      "value": "TARIQ-MD"
     }, 
 
     "ANTI_LINK": {
@@ -135,13 +135,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://i.ibb.co/Sw4pzTWC/IMG-20260124-WA0728.jpg"
+      "value": "https://files.catbox.moe/ptmvkm.jpg"
     },
     
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*CREATER 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟*"
+      "value": "*CREATER TARIQ-HACKER*"
     },
 
     "DELETE_LINKS": {
