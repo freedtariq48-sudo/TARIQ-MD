@@ -1,16 +1,16 @@
 {
-  "name": "DARKZONE-MD",
+  "name": "TARIQ-HACKER",
   "version": "7.0.0",
-  "description": "A WhaTsApp Bot Created By 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟 ",
+  "description": "A WhaTsApp Bot Created By TARIQ-HACKER ",
   "main": "index.js",
   "engines": {
     "node": ">=20.x",
     "npm": ">=10.x"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DARKZONE-MD",
-    "stop": "pm2 stop DARKZONE-MD",
-    "restart": "pm2 restart DARKZONE-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name TARIQ-HACKER",
+    "stop": "pm2 stop TARIQ-HACKER",
+    "restart": "pm2 restart TARIQ-HACKER"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc.9",
