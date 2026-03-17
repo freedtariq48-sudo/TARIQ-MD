@@ -19,7 +19,7 @@ cmd({
         const currentTime = new Date().toLocaleTimeString();
         const currentDate = new Date().toLocaleDateString();
         
-        const botName = config.BOT_NAME || "DARKZONE-MD";
+        const botName = config.BOT_NAME || "TARIQ-MD";
         const ownerName = config.OWNER_NAME || "DEVELOPER";
         const prefix = config.PREFIX || ".";
         const mode = config.MODE || "public";
