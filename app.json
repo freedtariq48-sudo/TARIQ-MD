@@ -1,11 +1,10 @@
-{
-  "name": "TARIQ-HACKER-MD",
-  "description": "Javascript WhatsApp bot made by TARIQ HACKER",
-  "logo": "https://files.catbox.moe/ptmvkm.jpg",
-  "keywords": ["TARIQ-HACKER-MD"],
+ {
+  "name": "DARKZONE-MD",
+  "description": "Javascript WhatsApp bot made by 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟",
+  "logo": "https://files.catbox.moe/jecbfo.jpg",
+  "keywords": ["DARKZONE-MD"],
   "success_url": "/",
-
-    "stack": "container",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
@@ -16,23 +15,34 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "TARIQ-HACKER"
+      "value": "𝐸𝑅𝐹𝒜𝒩"
     }, 
       
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": false,
       "value": "."
+    }, 
+      
+    "ANTI_CALL": {
+      "description": "on anti call anyone not disturb you",
+      "required": false,
+      "value": "false"
+    },
+      
+    "AUTO_DOWNLOADER": {
+      "description": "AUTO DOWNLOADER . TIK,FB,YT ,ETC ",
+      "required": false,
+      "value": "false"
     },
     
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
       "value": "public"
-      
     },
 
-     "ANTI_DELETE": {
+    "ANTI_DELETE": {
       "description": "set true for show deleted messages.",
       "required": false,
       "value": "true"  
@@ -41,7 +51,7 @@
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
-      "value": "true"  
+      "value": "false"  
     },    
    
     "AUTO_REPLY": {
@@ -56,7 +66,6 @@
       "value": "false"
     }, 
 
-
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
       "required": true,
@@ -66,7 +75,7 @@
     "AUTO_STATUS_REACT": {
       "description": "make it true for automatic status reaction or like.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_STATUS_REPLY": {
@@ -78,51 +87,46 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY TARIQ-HACKER-MD 🖤*"
-   
-     }, 
+      "value": "*SEEN YOUR STATUS BY DARKZONE-MD ❤️*"
+    }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "TARIQ HACKER"
-}, 
+      "value": "ERFAN"
+    }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923274699558"
-
+      "value": "923306137477"
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "TARIQ-HACKER-MD"
-
-      }, 
+      "value": "DARKZONE-MD"
+    }, 
 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "true"
-      
     },
 
-     "ANTI_LINK_KICK": {
+    "ANTI_LINK_KICK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
-      "value": "true"
-      
+      "value": "false"
     },
     
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
 
-   "MENTION_REPLY": {
+    "MENTION_REPLY": {
       "description": "make it true if want mention reply if someone menetion you.",
       "required": false,
       "value": "false"
@@ -131,19 +135,19 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/ptmvkm.jpg"
+      "value": "https://i.ibb.co/Sw4pzTWC/IMG-20260124-WA0728.jpg"
     },
     
-     "DESCRIPTION": {
+    "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*📌 ᴘᴏᴡᴇʀ ʙʏ TARIQ HACKER*"
+      "value": "*CREATER 𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟*"
     },
 
-      "DELETE_LINKS": {
+    "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     
     "AUTO_RECORDING": {
@@ -168,12 +172,11 @@
       "description": "Make it true if you want custom reactions.",
       "required": false,
       "value": "false"
-      
     }, 
     
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
-      "required": true,
+      "required": false,
       "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
     }, 
     
@@ -200,10 +203,9 @@
       "required": false,
       "value": "false"
     }
+  },
 
-},
-
-     "buildpacks": [
+   "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
