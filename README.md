@@ -6,7 +6,7 @@
 ---
 
 <a href="https://whatsapp.com/channel/0029VbCE1s1KLaHknasqyA31">
- <img alt="ZORAIB-MD" height="400" src="https://files.catbox.moe/ptmvkm.jpg"></a>
+ <img alt="TARIQ-MD" height="400" src="https://files.catbox.moe/ptmvkm.jpg"></a>
  <table>
   <tr>
     <td>
@@ -15,7 +15,7 @@
       </a>
     </td>
     <td>
-      <a href="https://salty-depths-65451-cd3da5997ba0.herokuapp.com/pair">
+      <a href="https://tariq-md-1a6e5f5e39ee.herokuapp.com/">
         <img src="https://img.shields.io/badge/🇵🇰_GET_PAIRING_V2-FF00FF?style=for-the-badge&logo=key&logoColor=white&labelColor=000000" width="300"/>
       </a>
     </td>
